@@ -1,0 +1,40 @@
+{
+  "name": "You're Sign pack Name Here",
+  "author": "You're Username or name",
+  "pack_id": "2e3b57d5-06ac-4b03-94b5-fb2bd05eb420",
+  "types": {
+    "spt_crosswalk": "Crosswalks Signs",
+    "spt_speed": "Speed Signs"
+  },
+  "signs": [
+    {
+      "id": "c9208cdf-93db-48f7-bce2-3bc906b419e8",
+      "name": "Yield To peds (left)",
+      "type": "spt_crosswalk",
+      "front": "peds_left_horizontal_yield.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "2b23f989-382c-4944-ae94-bdc8c2c22ae4",
+      "name": "Speed limit With Custom Text",
+      "type": "spt_speed",
+      "front": "speed_limit.png",
+      "back": "default_rectangle_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 12,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+
+        }
+      ]
+    }
+  ]
+}
